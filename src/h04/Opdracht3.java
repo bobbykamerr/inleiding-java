@@ -11,5 +11,10 @@ public class Opdracht3 extends Applet {
         g.drawRect(30, 120,20,300);
         g.setColor(Color.red);
         g.fillRect(50,120,200,30);
+        g.setColor(Color.white);
+        g.fillRect(50,150,200,30);
+        g.setColor(Color.blue);
+        g.fillRect(50,180,200,30);
+
     }
 }
