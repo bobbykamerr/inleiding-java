@@ -15,6 +15,8 @@ public class Opdracht3 extends Applet {
         g.fillRect(50,150,200,30);
         g.setColor(Color.blue);
         g.fillRect(50,180,200,30);
+        g.setColor(Color.orange);
+        g.fillOval(25,100,30,20);
 
     }
 }
