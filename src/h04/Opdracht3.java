@@ -9,6 +9,7 @@ public class Opdracht3 extends Applet {
     }
     public void paint(Graphics g) {
         g.drawRect(30, 120,20,300);
-        g.drawRect(50,120,200,30);
+        g.setColor(Color.red);
+        g.fillRect(50,120,200,30);
     }
 }
