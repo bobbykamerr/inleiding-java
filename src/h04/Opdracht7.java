@@ -11,6 +11,6 @@ public class Opdracht7 extends Applet {
         g.fillOval(25,25,15,15);
         g.fillOval(25,50,15,15);
         g.fillOval(50,25,15,15);
-        g.fillOval(50,50,15,15);
+        g.fillOval(50,50,15,30);
     }
 }
