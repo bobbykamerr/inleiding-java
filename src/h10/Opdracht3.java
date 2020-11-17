@@ -16,7 +16,7 @@ public class Opdracht3 extends Applet {
     public void init() {
         input = new TextField("",10);
         input.addActionListener(new Listener());
-
+    
         confirm = new Button("ok");
         confirm.addActionListener(new Listener());
 
