@@ -8,7 +8,7 @@ public class Opdracht1 extends Applet {
         int teller;
         int y = 0;
 
-        for (teller = 0; teller <= 10; teller++) {
+        for (teller = 0; teller < 10; teller++) {
             y += 20;
             g.drawLine(50, y, 150, y);
         }

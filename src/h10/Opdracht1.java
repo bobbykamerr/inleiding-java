@@ -5,7 +5,7 @@ import java.awt.event.*;
 
 public class Opdracht1 extends Applet {
 
-    TextField input;
+    TextField tekst;
     Label label;
     Button confirm;
     int resultaat;
@@ -14,13 +14,13 @@ public class Opdracht1 extends Applet {
     public void init() {
 
         label = new Label("voer getallen in:");
-        input = new TextField("",10);
+        tekst = new TextField("",10);
 
         confirm = new Button("Ok");
         confirm.addActionListener(new Listener());
 
         add(label);
-        add(input);
+        add(tekst);
         add(confirm);
     }
 
@@ -33,7 +33,7 @@ public class Opdracht1 extends Applet {
 
     class Listener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            String output = input.getText();
+            String output = tekst.getText();
             int getal = Integer.parseInt(output);
             if (getal > resultaat) {
                 resultaat = getal;

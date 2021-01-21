@@ -15,9 +15,7 @@ public class Opdracht2 extends Applet {
     public void init() {
 
         label = new Label("Voer een jaar en maandnummer in:");
-
         jaar = new TextField("",5);
-
         input = new TextField("",5);
         input.addActionListener(new Listener());
 
@@ -41,8 +39,8 @@ public class Opdracht2 extends Applet {
     class Listener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             String output = input.getText();
-            String jaartxt = jaar.getText();
-            int jaar = Integer.parseInt(jaartxt);
+            String jaartext = jaar.getText();
+            int jaar = Integer.parseInt(jaartext);
             int getal = Integer.parseInt(output);
             switch(getal) {
                 case 1:

@@ -35,21 +35,17 @@ public class Opdracht3 extends Applet {
             String output;
             output = input.getText();
             double getal = Double.parseDouble(output);
-
-            //bij elk getal gaat de getalcount met 1 omhoog. dat is nodig voor de rekensom
             ++getalcount;
-
-            //getal wordt  opgeteld en dan door de hoeveelheid getallen gedeeld
             gemiddelde += getal;
             gemiddelde2 = gemiddelde / getalcount;
 
-            //checken of het voldoende of onvoldoende is
+
             if (getal >= 5.5) {
                 voldoende = "voldoende";
             } else  {
                 voldoende = "onvoldoende";
             }
-            //met het gemiddelde bekijken of de gebruiker is geslaagd
+
             if (gemiddelde >= 5.5) {
                 uitslag = "je bent geslaagd!";
             } else {
